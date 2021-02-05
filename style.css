@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "iA Writer Quattro";
+    src: url("./assets/iAWriterQuattroS-Regular.woff2") format("woff2"); 
+  }
+
+h1 {
+    font-family: "iA Writer Quattro"
+}
