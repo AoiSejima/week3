@@ -1,8 +1,58 @@
 @font-face {
-    font-family: "iA Writer Quattro";
+    font-family: "iA Writer Quattro Regular";
     src: url("./assets/iAWriterQuattroS-Regular.woff2") format("woff2"); 
   }
 
+@font-face {
+    font-family: "iA Writer Quattro Bold";
+    src: url("./assets/iAWriterQuattroS-Bold.woff2") format("woff2"); 
+}
+
 h1 {
-    font-family: "iA Writer Quattro"
+    font-family: "iA Writer Quattro Bold";
+    font-size: 4rem;
+    color: skyblue;
+    margin-top: 13rem;
+    transform: rotate(10deg);
+}
+
+p {
+    font-family: "iA Writer Quattro Regular";
+    font-size: 2rem;
+    color: green;
+    line-height: 5rem;
+    margin-left: 6vw;
+}
+
+.first {
+    transform: rotate(350deg);
+}
+
+.second {
+    transform: rotate(10deg);
+    margin-top: 20rem;
+}
+
+.pink {
+    font-family: "iA Writer Quattro Bold";
+    color: pink;
+    border-bottom: 5px dotted pink;
+    font-size: 3rem;
+}
+
+.green {
+    font-family: "iA Writer Quattro Bold";
+    color: greenyellow;
+    border-bottom: 5px dotted greenyellow;
+    font-size: 3rem;
+}
+
+.expand:hover {
+    font-family: "iA Writer Quattro Bold";
+    font-size: 5rem;
+    color: pink;
+}
+
+.invisible:hover {
+    opacity: 0;
 }
